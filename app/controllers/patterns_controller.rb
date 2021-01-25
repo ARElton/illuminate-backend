@@ -1,9 +1,9 @@
 class PatternsController < ApplicationController
     
     def index
-        pattern = Pattern.all
-        render json: pattern
+        patterns = Pattern.all
+        render json: patterns
     end
 
-    
+
 end
