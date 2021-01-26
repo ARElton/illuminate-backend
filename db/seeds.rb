@@ -16,10 +16,12 @@ aaron = User.create(username: "Aaron")
 
 Pattern.create(image: "/pattern_img/girl-gourds.jpg", name: "Girl Picking Gourds", category: "Tiffany Style", description: "Original was made in 1890 for a living room at Larelton Hall, Oyster Bay, NY.")
 Pattern.create(image: "/pattern_img/autumn.png", name: "Autumn", category: "Tiffany Style", description: "designed by Lydia Emmet in 1893")
-Pattern.create(image: "./pattern_img/bird-flight.jpg", name: "Bird in Flight", category: "Art Deco Style", description: "Window pane with a geometric bird flying in front of a sunset.")
-Pattern.create(image: "./pattern_img/two-roses.jpg", name: "Two Roses", category: "Art Nouveau Style", description: "Square panel with two intertwined roses")
+Pattern.create(image: "/pattern_img/bird-flight.jpg", name: "Bird in Flight", category: "Art Deco Style", description: "Window pane with a geometric bird flying in front of a sunset.")
+Pattern.create(image: "/pattern_img/two-roses.jpg", name: "Two Roses", category: "Art Nouveau Style", description: "Square panel with two intertwined roses")
 
 5.times do 
-    Project.create(user_id: User.all.sample.id, pattern_id: Pattern.all.sample.id, image: "", favorite: true)
+    Project.create(user_id: User.all.sample.id, pattern_id: Pattern.all.sample.id, image: "", favorite: false)
 end
+
+Project.create(user_id: roy.id, pattern_id: Pattern.all.sample.id, image: "https://cdn.shopify.com/s/files/1/0278/2391/products/Chloe_Mondriaan_Stained_Glass_large.jpg?v=1571438687", favorite: true)
 

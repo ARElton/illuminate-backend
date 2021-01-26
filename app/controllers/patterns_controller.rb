@@ -1,5 +1,10 @@
 class PatternsController < ApplicationController
     
+    def show
+        pattern = Patern.find(params[:id])
+        render json: pattern 
+    end
+    
     def index
         patterns = Pattern.all
         render json: patterns
