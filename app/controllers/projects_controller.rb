@@ -34,6 +34,7 @@ class ProjectsController < ApplicationController
     def update
         project = Project.find_by(id: params[:id])
         project.update(project_params)
+        render json: project
     end
 
     private 
