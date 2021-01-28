@@ -1,24 +1,11 @@
-# README
+Illuminate Owner/s: Aaron Amodt and Amelia Elton
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Illuminate is a repository for stained glass patterns, where users can share patterns and completed projects. 
 
-Things you may want to cover:
+Domain model with attributes:
 
-* Ruby version
+User -< Project >- Pattern
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+User: name (str)
+Project: user_id(int), pattern_id(int), image(str)(default: null), favorite(boolean)
+Pattern: image(str), name(string), category(str), description(str)

@@ -32,4 +32,14 @@ Pattern.create(image: "/pattern_img/geometric4.png", name: "Sun Rise", category:
 
 
 Project.create(user_id: roy.id, pattern_id: Pattern.all.sample.id, image: "https://cdn.shopify.com/s/files/1/0278/2391/products/Chloe_Mondriaan_Stained_Glass_large.jpg?v=1571438687", favorite: true)
+Project.create(user_id: roy.id, pattern_id: Pattern.all.sample.id, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAK7ZGqe6aPAq_NUd1asK9N2doCEHgfRal0A&usqp=CAU", favorite: true)
+Project.create(user_id: roy.id, pattern_id: Pattern.all.sample.id, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_2xU3GSKI_3_go30x2iboSRVsLXu5yr5euQ&usqp=CAU", favorite: true)
+Project.create(user_id: roy.id, pattern_id: Pattern.all.sample.id, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUlnbkfyeEtXhlX8Wd7Q3fMZ5489Mrztb2jw&usqp=CAU", favorite: true)
+Project.create(user_id: roy.id, pattern_id: Pattern.all.sample.id, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSD9jck-oomdcGtyHcd_agbsTk9g8KNimiRxA&usqp=CAU", favorite: true)
+Project.create(user_id: roy.id, pattern_id: Pattern.all.sample.id, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSonVYprRTg5blqEXNWH_CAop7NQd_mlvgCbPEt3cC7vZwToIi4iJ6LE8YrTxedBy1tznF5dxswift2ofi1cGEa4DMKm22r4EpTEg&usqp=CAU&ec=45768321", favorite: true)
+Project.create(user_id: roy.id, pattern_id: Pattern.all.sample.id, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3bOnQqH5FN-gA2XUZq8BGxFT4qvUwyRSFyRO-TVB10zr9el__P5LnY12Y_So7a3Hn-BYJybHUUqpK1ojcHD70lglth5JeDkwmLg&usqp=CAU&ec=45768321", favorite: true)
+Project.create(user_id: roy.id, pattern_id: Pattern.all.sample.id, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm0vhmpXumCwgcE2P1hOJrbRl8LRH2noPTK3ISrrsqI6n4AHYjhxMupsMVdCTZoRnPnng67D3bqEVlte67ITiD1gyIrlyr79oQ3Q&usqp=CAU&ec=45768321", favorite: true)
+Project.create(user_id: roy.id, pattern_id: Pattern.all.sample.id, image: "https://images-na.ssl-images-amazon.com/images/I/8153raKoFCL._AC_SL1500_.jpg", favorite: true)
+
+
 
