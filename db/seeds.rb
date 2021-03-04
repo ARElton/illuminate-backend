@@ -9,6 +9,7 @@
 User.destroy_all 
 Pattern.destroy_all 
 Project.destroy_all 
+puts "records detroyed"
 
 roy = User.create(username: "Roy")
 amelia = User.create(username: "Amelia")
@@ -42,4 +43,4 @@ Project.create(user_id: roy.id, pattern_id: Pattern.all.sample.id, image: "https
 Project.create(user_id: roy.id, pattern_id: Pattern.all.sample.id, image: "https://images-na.ssl-images-amazon.com/images/I/8153raKoFCL._AC_SL1500_.jpg", favorite: true)
 
 
-
+puts "records created"
